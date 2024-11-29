@@ -1,0 +1,28 @@
+.SendSequences {
+  height: 30%;
+  padding: 20px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+.ScrollableContent {
+  height: 95%; /* Ocupa toda a altura da SendSequences */
+  overflow-y: auto; /* Habilita a rolagem vertical */
+  font-family: Arial, sans-serif;
+  flex-direction: column;
+}
+.Information {
+  font-size: 16px;
+  display: flex;
+  right: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.teste {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

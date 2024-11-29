@@ -1,0 +1,25 @@
+.boxInput {
+  width: 90%;
+  height: 40px;
+  margin: 15px;
+  margin-left: 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 1px solid #000;
+  transition: all 0.3s ease; /* A transição suave para todas as propriedades */
+
+}
+
+.boxInput:hover {
+  transform: scale(1.1);
+}
+.Information {
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+  top: 10px;
+  right: 5px;
+  position: relative;
+  color: #fff;
+}

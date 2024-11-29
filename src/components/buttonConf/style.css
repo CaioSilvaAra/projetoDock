@@ -1,0 +1,20 @@
+.ButtonConf {
+  width: 80px; /* Define a largura do botão */
+  height: 25px; /* Define a altura do botão */
+  border-radius: 5px;
+  display: block;
+  margin: 5px;
+  background-color: #ecf0f1;
+  border: 1px solid #000;
+}
+
+.ButtonConf:hover {
+  transform: scale(1.1); /* Diminui o botão enquanto ele é pressionado */
+  /* Cor do botão ao passar o mouse */
+}
+.ButtonConf:active {
+  transform: scale(0.95);
+}
+.TituloConf {
+  font-size: 16px;
+}

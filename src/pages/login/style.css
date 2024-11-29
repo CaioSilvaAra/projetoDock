@@ -1,0 +1,50 @@
+.Screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(36, 3, 219, 0.911), #dc04e4);
+}
+
+.ScreenLogin {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  width: 60%;
+  height: 70%;
+  background: linear-gradient(to right, rgba(30, 1, 215, 0.685), #dd04e4a9);
+  box-shadow: -10px 10px 15px #000000ab;
+}
+
+.ScreenLogo {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: 100px;
+}
+.ScreenUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+.h1Login {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  font-family: monospace;
+  font-size: 50px;
+  color: #fff;
+  margin-right: 100px;
+  position: relative;
+}
+
+.buttonBox {
+  display: flex;
+  width: 90%;
+  margin-left: 15px;
+  justify-content: center;
+}

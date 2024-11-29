@@ -1,0 +1,11 @@
+.ScreenLogs {
+    width: 95%;
+    height: 84%;
+    max-height: 600px;
+    background-color:  rgb(255, 255, 255);
+    overflow-y: auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+}
